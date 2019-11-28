@@ -155,7 +155,7 @@ h3{
     width: 270px;
     height: 175px;
     background-color:rgb(75, 202, 255);
-    box-sizing: border-box;
+    
    
 }
 
@@ -187,6 +187,64 @@ h3{
     display: flex;
 }
 
+.container3{
+    margin: auto;
+    width: 1170px;
+    height: 845px;
+
+}
+.portfolio{
+    margin: auto;
+    width: 1170px;
+    height: 194px;
+}
+
+.portfolio p{
+    color: rgb(81,95,103);
+    font-size: 30px;
+}
+
+.nav2{
+    width: 50%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.colonne3{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(81,95,103);
+}
+
+.colonne3 a{
+    color: rgb(81,95,103)
+    text-decoration: none;
+    border: transparent;
+    border-style: solid;
+    padding: 12px 18px;
+}
+
+.colonne3 a:hover{
+    color: rgb(75, 202, 255);
+    border-width: bold;
+    border-style: solid;
+    border-color: rgb(75, 202, 255);
+}
+.port{
+    color: rgb(81,95,103);
+    border-bottom: rgb(81,95,103) 2px solid;
+}
+.photo{
+    
+    width: 1170px;
+    height: 650px;
+}
 
 /*Partie 4 */
 
