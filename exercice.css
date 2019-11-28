@@ -71,6 +71,21 @@ body{
     font-weight: bold;
     font-size: 14px;
 }
+.colonne2 a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: transparent;
+    border-style: solid;
+    padding: 12px 18px;
+}
+.colonne2 a:hover{
+    color: rgb(75, 202, 255);
+    border-width: bold;
+    border-style: solid;
+    border-color: rgb(75, 202, 255);
+    
+
+}
 ul{
     width: 700px;
 }
@@ -87,13 +102,7 @@ font-size: 30px;
     
     
 }
-.home{
-    color: rgb(75, 202, 255);
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(75, 202, 255);
-    padding: 2px 2px;    
-}
+
 span{
     color: rgb(75, 202, 255);
 }
@@ -107,40 +116,55 @@ span{
     display: flex;
     justify-content: center;
 }
-/*
-.service{
+.container2{
+    margin: auto;
+    width: 1170px;
+    height: 248px;
+}
+#service{
     margin: auto;
     width: 1170px;
     height: 73px;
+    font-size: 30px;
+    font-weight: lighter;
 }
-*/
-.container2{
+cite{
+    font-style: normal;
+    text-decoration: underline;
+
+}
+
+.items{
     width: 1170px;
     height: 175px;
     margin: auto;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+    
+    
 }
 .coffee{
     width: 270px;
     height: 175px;
     background-color: black;
+    margin: auto;
 }
 .instant{
     width: 270px;
     height: 175px;
     background-color: black;
+    margin: auto;
 }
 .serious{
     width: 270px;
     height: 175px;
     background-color: black;
+    margin: auto;
 }
 .frame{
     width: 270px;
     height: 175px;
     background-color: black;
+    margin: auto;
 }
 
 /*Partie 3 */
