@@ -194,14 +194,20 @@ h3{
 
 }
 .portfolio{
-    margin: auto;
+    
     width: 1170px;
     height: 194px;
+    margin: auto;
+  display: flex;
+  justify-content: space-between;
+    
 }
 
 .portfolio p{
     color: rgb(81,95,103);
     font-size: 30px;
+    margin-bottom: 1px;
+    
 }
 
 .nav2{
