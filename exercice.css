@@ -287,26 +287,32 @@ h3{
     height: 313px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
    
+}
+
+.section-text{
+    font-size: 14px;
 }
 .section{
     font-size: 30px;
     margin-top: 3px;
     margin-bottom: 3px;
     font-weight: lighter;
+
 }
 
 .visit{
     margin-top: 3px;
-    color: black;
+    color: rgba(53, 63, 70);
     font-size: 14px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
 }
 .visit a{
-    color: rgba(0, 0, 0, 0.76);
+    color: rgba(53, 63, 70);
     text-decoration: none;
-    
+    border-width: 2px;
     border-style: solid;
     padding: 15px 40px;
 }
@@ -455,7 +461,7 @@ cite{
 
 }
 
-.testimonial{
+.testimonials{
     margin: auto;
     width: 1170px;
     height: 35px;
@@ -464,12 +470,15 @@ cite{
     color: rgb(81,95,103);
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
 }
+
 .applicake{
     font-size: 28px;
     color: rgb(81,95,103);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
 }
 
 .walt{
@@ -483,6 +492,54 @@ cite{
 .container-large-8{
     margin:0;
     width: 100%;
-    height: 984px;
+    height: 814px;
     background-image: url(images/fin-de-page_05.jpg);
+    display: flex;
+}
+
+.container8{
+    margin: auto;
+    width: 1170px;
+    height: 814px;
+    justify-content: center;
+    flex-direction: column
+}
+
+.container-contact{
+    margin: auto;
+    width: 1170px;
+    height: 37px;  
+}
+
+.full-text{
+    margin: auto;
+    width: 1170px;
+    height: 241px;
+    display: flex;
+}
+
+.full{
+    margin: auto;
+    width: 50%;
+    height: 241px;
+}
+
+.full-name{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+    color: white;
+    margin: auto;
+    width: 100%;
+    height: 82px;
+}
+
+
+/* Partie Footer */
+
+footer{
+    margin: 0;
+    width: 100%;
+    height: 170px;
+    background-color: rgba(53, 63, 71);
 }
