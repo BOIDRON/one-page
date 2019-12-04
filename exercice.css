@@ -1,7 +1,3 @@
-/*=====================================variable==========================================================*/
-:root{
-    --primary-color: rgb(255, 255, 255);
-}
 
 body{
     margin:0;
@@ -50,9 +46,10 @@ body{
 
 .row-1{
     width: auto;
-    height: 100px;
+    height: 150px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .colonne2{
@@ -83,7 +80,7 @@ body{
 
 .colonne2 a:hover{
     color: rgb(75, 202, 255);
-    border-width: bold;
+
     border-style: solid;
     border-color: rgb(75, 202, 255);
 }
@@ -104,7 +101,7 @@ font-size: 30px;
     justify-content: center;  
 }
 
-.E{
+.lettre-E{
     color: rgb(75, 202, 255);
 }
 
@@ -121,7 +118,7 @@ font-size: 30px;
 .container2{
     margin: auto;
     width: 1170px;
-    height: 248px;
+    height: 350px;
 }
 
 #service{
@@ -238,7 +235,6 @@ h3{
 
 .colonne3 a:hover{
     color: rgb(75, 202, 255);
-    border-width: bold;
     border-style: solid;
     border-color: rgb(75, 202, 255);
 }
@@ -363,7 +359,6 @@ h3{
 
 .visit a:hover{
     color:  black;
-    border-width: bold;
     border-style: solid;
     border-color:  black;
 }
@@ -588,6 +583,7 @@ flex-direction: column;
 }
 
 label{
+    display: block;
     margin-bottom: 5px;
     font-weight: bold;
 }
@@ -660,7 +656,6 @@ label{
 
 .bouton-message a:hover{
     color: rgb(75, 202, 255);
-    border-width: bold;
     border-style: solid;
     border-color: rgb(75, 202, 255);
 }
