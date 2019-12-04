@@ -1,33 +1,33 @@
-/*variable*/
+/*=====================================variable==========================================================*/
 :root{
     --primary-color: rgb(255, 255, 255);
 }
+
 body{
     margin:0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(255, 255, 255);
 }
+
 .container{
     width: 1170px;
     margin: auto;
     height: 100%;
 }
-/*Partie 1*/
+
+/*=======================================Partie HEADER============================================================*/
 
 .container-large-1{
     margin:0;
     width: 100%;
     height: 800px;
-    background-image: url(images/haut-de-page.jpg);
-    
+    background-image: url(images/haut-de-page.jpg); 
 }
 
 .container-header{
     background-color: rgba(68, 78, 86, 0.685);
-    height: 150px;
-    
+    height: 150px;  
 }  
-
 
 .welcome{
     font-weight: lighter;
@@ -35,13 +35,11 @@ body{
     text-align: center;
     text-transform: uppercase;
     width: 1170px;
-       
     height: 650PX;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }    
 
 .welcome p{
@@ -50,17 +48,13 @@ body{
     padding: 4px 20px;
 }
 
-
-
 .row-1{
-    
     width: auto;
     height: 100px;
     display: flex;
     justify-content: space-between;
-
-
 }
+
 .colonne2{
     display: flex;
     flex-direction: row;
@@ -70,6 +64,7 @@ body{
     font-weight: bold;
     font-size: 14px;
 }
+
 .colonne2 a{
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -85,14 +80,14 @@ body{
     border-color: rgb(75, 202, 255);
     padding: 12px 18px;
 }
+
 .colonne2 a:hover{
     color: rgb(75, 202, 255);
     border-width: bold;
     border-style: solid;
     border-color: rgb(75, 202, 255);
-    
-
 }
+
 ul{
     width: 700px;
 }
@@ -101,40 +96,41 @@ ul{
 font-weight: bold ;
 font-size: 30px;
 }
+
 .nav{
     width: 50%;
     height: 100px;
     display: flex;
-    justify-content: center;
-    
-    
+    justify-content: center;  
 }
 
 .E{
     color: rgb(75, 202, 255);
 }
-/*Partie 2 */
+
+/*===================================Partie SERVICE=================================== */
 
 .container-large-2{
     margin:0;
     width: 100%;
     height: 405px;
     background-color: rgb(75, 202, 255);
-    display: flex;
-    
+    display: flex; 
 }
+
 .container2{
     margin: auto;
     width: 1170px;
     height: 248px;
 }
+
 #service{
-    
     width: 1170px;
     height: 73px;
     font-size: 30px;
     font-weight: lighter;
 }
+
 .cite{
     border-bottom: 2px solid white;
 }
@@ -144,9 +140,7 @@ font-size: 30px;
     height: 175px;
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
-    
-    
+    flex-direction: row;  
 }
 
 .items p{
@@ -158,34 +152,32 @@ h3{
     font-weight: lighter;
     margin-top: 1px;
 }
+
 .coffee{
     width: 270px;
     height: 175px;
-    background-color:rgb(75, 202, 255);
-    
-   
+    background-color:rgb(75, 202, 255);  
 }
 
 .instant{
     width: 270px;
     height: 175px;
     background-color: rgb(75, 202, 255);
-   
 }
+
 .serious{
     width: 270px;
     height: 175px;
-    background-color: rgb(75, 202, 255);
-    
+    background-color: rgb(75, 202, 255); 
 }
+
 .frame{
     width: 270px;
     height: 175px;
-    background-color: rgb(75, 202, 255);
-    
+    background-color: rgb(75, 202, 255);  
 }
 
-/*Partie 3 */
+/*===============================================Partie PORTFOLIO================================== */
 
 .container-large-3{
     margin:0;
@@ -201,34 +193,28 @@ h3{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
-
 }
+
 .portfolio{
-    
     width: 1170px;
     height: 130px;
     margin: 0 auto;
    display: flex;
    justify-content: space-between;
    align-items: center;
-   color: rgb(75, 88, 96);
-  
-    
+   color: rgb(75, 88, 96); 
 }
 
 .portfolio p{
     font-weight: lighter;
     font-size: 30px;
-    color: rgb(75, 88, 96);
-    
+    color: rgb(75, 88, 96);  
 }
 
 .nav2{
     width: 50%;
     height: 100px;
     display: flex;
-    justify-content: ;
 }
 
 .colonne3{
@@ -256,10 +242,12 @@ h3{
     border-style: solid;
     border-color: rgb(75, 202, 255);
 }
+
 .port{
     color: rgb(81,95,103);
     border-bottom: rgb(81,95,103) 2px solid;
 }
+
 .image{
     width: 1170px;
     height: 650px;
@@ -267,7 +255,6 @@ h3{
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    padding
 }
 
 .image-folio{
@@ -308,13 +295,13 @@ h3{
     background-image: url(images/portfolio_8.jpg);
 }
 
-
 .image-folio:hover{
     background-image: url(images/cache_07.jpg);
     opacity: 0.8;
     transition: 0.5s ease-in-out;
 }
-/*Partie 4 */
+
+/*=============================Partie JUST DEFAULT SECTION===================================== */
 
 .container-large-4{
     margin:0;
@@ -328,7 +315,6 @@ h3{
     margin: auto;
     width: 1170px;
     height: 473px;
-    
     display: flex;
     justify-content: space-between;
 }
@@ -339,28 +325,25 @@ h3{
     height: 313px;
     display: flex;
     justify-content: space-between;
-
 }
 
 .just{
-    
     width: 460px;
     height: 313px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-   
+    justify-content: space-between; 
 }
 
 .section-text{
     font-size: 14px;
 }
+
 .section{
     font-size: 30px;
     margin-top: 3px;
     margin-bottom: 3px;
     font-weight: lighter;
-
 }
 
 .visit{
@@ -384,7 +367,7 @@ h3{
     border-style: solid;
     border-color:  black;
 }
-/*Partie 5 */
+/*========================================Partie TWITTER===================================================== */
 
 .container-large-5{
     margin:0;
@@ -417,8 +400,7 @@ cite{
     font-style: normal;
     font-weight: 500 ;
     margin-right: 3px;
-    margin-top: 3px;
-    
+    margin-top: 3px;   
 }
 
 .text-twitter{
@@ -426,9 +408,7 @@ cite{
     font-weight: lighter;
 }
 
-
-
-/*Partie 6 */
+/*=========================================Partie WHO IS JOHN DOE============================================= */
 
 .container-large-6{
     margin:0;
@@ -445,21 +425,16 @@ cite{
     width: 1170px;
     height: 505px;
     display: flex;
-    
-
 }
 
 .container-who{
     margin: auto;
     width: 1170px;
-    height: 300px;
-
-    
+    height: 300px; 
 }
 
 .who{
-    
-    width: 1170px;
+     width: 1170px;
     height: 24px;
     font-size: 30px;
     font-weight: lighter;
@@ -474,12 +449,10 @@ cite{
 }
 
 .text-paragraphe{
-    
     width: 40%;
     height: 208px;
     justify-content: space-between;
-    flex-direction: column;
-      
+    flex-direction: column;  
 }
 
 .text-icon{
@@ -487,7 +460,6 @@ cite{
     width: 40%;
     height: 208px;
     justify-content: flex-end;
-
 }
 
 .icon-who{
@@ -497,7 +469,8 @@ cite{
     justify-content: space-between;
     
 }
-/*Partie 7 */
+
+/*==========================================Partie TESTIMONIALS======================================= */
 
 .container-large-7{
     margin:0;
@@ -518,8 +491,6 @@ cite{
     height: 200px;
     display: flex;
     flex-direction: column;
-
-
 }
 
 .testimonials{
@@ -532,7 +503,6 @@ cite{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .applicake{
@@ -548,7 +518,7 @@ cite{
     font-weight: bold;
 }
 
-/*Partie 8 */
+/*================================================Partie CONTACT========================================= */
 
 .container-large-8{
     margin:0;
@@ -564,12 +534,10 @@ cite{
     height: 814px;
     justify-content: center;
     flex-direction: column;
-    display: flex;
-    
+    display: flex; 
 }
 
 .container-full{
-    
     width: 1170px;
     height: 738px;
     display: flex;
@@ -593,46 +561,49 @@ cite{
     display: flex;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     justify-content: space-around;
+    align-items: flex-end;
 }
 
 .full{
     margin: 0%;
     width: 50%;
     height: 241px;
-    justify-content: flex-end;
-    display: flex;
     flex-direction: column;
-   
-    
-    
-    
+    display: flex;
+    justify-content: space-around;
+       
 }
 
-
-.full-name{
+.container-name{
     font-weight: bolder;
     color: white;
-    margin: 0%
+    margin: 0%;
     font-size: 14px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-flex{
+    display: flex;
+flex-direction: column;
+}
+
+label{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.label-email{
+    margin-top: 20px;
+    
 }
 
 .full-name p{
     margin-bottom: 5px;
 }
 
-.container-name{
-    border-width: 2px;
-    border-style: solid;
-    width: 466px;
-    height: 57px;
-    color: white;
-    text-decoration: none;
-}
 
 .jujubes{
     font: 14px;
-    font-weight:    ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 3px;
 }
@@ -654,11 +625,15 @@ cite{
     width: 1165px;
     height: 317px;
     color: white;
-    text-decoration: none;
+    text-decoration: none;   
 }
 
+.full-name{
+    font-weight: bold;
+}
 .message{
     margin-bottom: 20px;
+
 }
 
 .bouton{
@@ -666,14 +641,10 @@ cite{
     height: 62px;
     width: 371px;
     height: 62px;
-    display: flex;
-    
-    
-    
-    
+    display: flex;   
 }
 
-.bouton p{
+.bouton a{
      background-color: rgb(75, 202, 255);
      height: 62px;
      width: 371px;
@@ -687,8 +658,6 @@ cite{
     justify-content: center;
 }
 
-
-
 .bouton-message a:hover{
     color: rgb(75, 202, 255);
     border-width: bold;
@@ -696,7 +665,16 @@ cite{
     border-color: rgb(75, 202, 255);
 }
 
-/* Partie Footer */
+input{    
+    border: 2px solid white;
+    width: 466px;
+    height: 57px;
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+/*================================================= Partie Footer======================================= */
 
 footer{
     margin: 0;
@@ -740,10 +718,7 @@ footer{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding: 5px;
-   
-   
-    
+    padding: 5px;    
 }
 
 .text-footer li{
@@ -754,13 +729,9 @@ footer{
     padding-right: 12px;
     align-items: flex-start;
     text-decoration: none;
-    
-
-
 }
 
-
-.gg{
+.H-S-P{
     border-right: 2px solid rgb(75, 88, 96);
     padding-right: 6px;
     color: rgb(75, 88, 96);
@@ -768,7 +739,7 @@ footer{
     text-decoration: none;
 }
 
-.c{
+.cont{
     font-weight: bold;
     text-decoration: none;
     color: rgb(75, 88, 96);

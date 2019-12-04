@@ -5,11 +5,12 @@
     <meta charset="utf-8">
     <title>exercice</title>
     <link rel="stylesheet" href="exercice.css">
+    <script src="script.js"></script>
 </head>
 
 <body>
 
-
+    <!---------------------------PARTIE HEADER------------------------------------------------>
 
     <div class="container-large-1">
         <div id="HOME"></div>
@@ -39,7 +40,9 @@
             </div>
         </div>
     </div>
-    </div>
+
+    <!---------------------------PARTIE SERVICE------------------------------------------------>
+
     <div class="container container-large-2">
         <div class="container2">
             <div id="service">
@@ -88,6 +91,9 @@
             </div>
         </div>
     </div>
+
+    <!---------------------------PARTIE PORTFOLIO------------------------------------------------>
+
     <div class="container container-large-3">
         <div class="container3">
             <div class="portfolio">
@@ -118,6 +124,9 @@
         <div id="PORTFOLIO">
         </div>
     </div>
+
+    <!---------------------------PARTIE JUST DEFAULT SECTION------------------------------------------------>
+
     <div class="container container-large-4">
         <div class="container4">
             <div class="container41">
@@ -138,19 +147,21 @@
                     </div>
                     <p class="visit"><a>VISIT ME</a></p>
                 </div>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/_fFPwMfpWC0" frameborder="0"
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/_fFPwMfpWC0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
             </div>
         </div>
     </div>
     <div id="FEATURES"></div>
-    </div>
+
+    <!---------------------------PARTIE TWITTER------------------------------------------------>
+
     <div class="container container-large-5">
         <div class=container5>
             <div class="twitter">
                 <p><span class="cite">TWI</span>TTER</p>
-                <img src="images/twitter_03.jpg">
+                <img src="images/twitter_03.jpg" alt="twitter">
             </div>
             <div></div>
             <div class="text-twitter">
@@ -158,8 +169,9 @@
                 <p><cite>@cheesecake</cite>tootsie roll.</p>
             </div>
         </div>
-
     </div>
+
+    <!---------------------------PARTIE WHO IS JOHN DOE------------------------------------------------>
 
     </div>
     <div class="container container-large-6">
@@ -194,6 +206,9 @@
             </div>
         </div>
     </div>
+
+    <!---------------------------PARTIE TESTIMONIALS------------------------------------------------>
+
     <div class="container container-large-7">
         <div class="container7">
             <div class="container-text">
@@ -208,31 +223,28 @@
             </div>
         </div>
     </div>
+
+    <!---------------------------PARTIE CONTACT------------------------------------------------>
+
     <div class="container container-large-8">
         <div class="container8">
             <div class="container-full">
-
                 <p class="container-contact"><span class="cite">CO</span>NTACT</p>
-
                 <div class="full-text">
                     <div class="full">
-                        <div class="full-name">
-                            <p>FULL NAME</p>
-                        </div>
-                        <div class="container-name">
-                            <form>
-                                <p></p>
-                            </form>
-                        </div>
-                        <div class="full-name">
-                            <p>EMAIL</p>
-                        </div>
-                        <div class="container-name">
-                            <form>
-                                <p></p>
-                            </form>
-                        </div>
+
+
+                        <form method="post" action="traitement.php">
+                            <div class="form-flex">
+                                <label>NAME</label>
+                                <input type="text" name="NAME" />
+                                <label class="label-email">EMAIL</label>
+                                <input type="email" name="EMAIL" />
+                            </div>
+                        </form>
+
                     </div>
+
                     <div class="full">
                         <p class="jujubes">Jujubes bear claw croissant wafer sweet lemon drops brownie chocolate bar.
                             Sweet lollipop halvah tootsie roll cake fruitcake. Chocolate cake chocolate bar gingerbread
@@ -245,6 +257,7 @@
                         </ul>
                     </div>
                 </div>
+
                 <div class="message">
                     <div class="full-name">
                         <p>MESSAGE</p>
@@ -257,31 +270,22 @@
             </div>
         </div>
     </div>
-    </div>
     <div id="CONTACT">
-
     </div>
+
+    <!---------------------------PARTIE FOOTER------------------------------------------------>
+
     <footer>
         <div class="container-footer">
             <div class="container-end">
                 <ul class="text-footer">
-                    <li><a href="#HOME" class="gg">HOME</a></li>
-                    <li><a href="#service" class="gg">SERVICE</a></li>
-
-                    <li><a href="#PORTFOLIO" class="gg">PORTFOLIO</a></li>
-                    <li><a href="#CONTACT" class="c">CONTACT</a></li>
+                    <li><a href="#HOME" class="H-S-P">HOME</a></li>
+                    <li><a href="#service" class="H-S-P">SERVICE</a></li>
+                    <li><a href="#PORTFOLIO" class="H-S-P">PORTFOLIO</a></li>
+                    <li><a href="#CONTACT" class="cont">CONTACT</a></li>
                 </ul>
                 <p>2013©</p>
             </div>
         </div>
     </footer>
-
-
-
-
-
-
-
-
-
 </body>
