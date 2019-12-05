@@ -106,7 +106,24 @@ font-size: 30px;
 }
 
 /*===================================Partie SERVICE=================================== */
+/* 
+h2{
+    text-transform: uppercase;
+    font-size: 1.85rem;
+    font-weight: lighter;
+}
 
+h2::after{
+    content: "";
+    display: block;
+    height: 0;
+    border-top: 2px white solid;
+    width: 43px;
+}
+
+h2.text-color-secondary::after{
+    border-top-color: black;
+*/
 .container-large-2{
     margin:0;
     width: 100%;
@@ -579,7 +596,7 @@ cite{
 
 .form-flex{
     display: flex;
-flex-direction: column;
+    flex-direction: column;
 }
 
 label{
@@ -592,11 +609,6 @@ label{
     margin-top: 20px;
     
 }
-
-.full-name p{
-    margin-bottom: 5px;
-}
-
 
 .jujubes{
     font: 14px;
@@ -615,32 +627,26 @@ label{
 
 }
 
-.container-message{
-    border-width: 2px;
-    border-style: solid;
+textarea{
+    border: 2px solid white;
     width: 1165px;
     height: 317px;
-    color: white;
-    text-decoration: none;   
+    background-color: transparent;
+    text-decoration: none; 
+    color: white;  
 }
 
-.full-name{
-    font-weight: bold;
-}
 .message{
     margin-bottom: 20px;
 
 }
 
 .bouton{
-    margin-left: 2px;
-    height: 62px;
-    width: 371px;
-    height: 62px;
-    display: flex;   
+    display: flex;
+    justify-content: flex-start;
 }
 
-.bouton a{
+button{
      background-color: rgb(75, 202, 255);
      height: 62px;
      width: 371px;
@@ -650,12 +656,12 @@ label{
     font-size: 14px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
-    align-items: center;
     justify-content: center;
+    margin-left: 2px;
+    border: 2px rgb(75, 202, 255);
 }
 
-.bouton-message a:hover{
-    color: rgb(75, 202, 255);
+button:hover{
     border-style: solid;
     border-color: rgb(75, 202, 255);
 }
@@ -667,6 +673,11 @@ input{
     color: white;
     background-color: transparent;
     text-decoration: none;
+}
+
+::placeholder{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /*================================================= Partie Footer======================================= */
